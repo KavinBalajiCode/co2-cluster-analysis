@@ -25,7 +25,6 @@ fn main() {
     graph::save_clusters_to_file(&graph, "clusters_output.txt");
 }
 
-/*#[cfg(test)]
 mod tests {
     use crate::country::CountryData;
     use crate::similarity::cosine_similarity;
@@ -108,4 +107,4 @@ mod tests {
         let c_idx = graph.node_indices().find(|idx| graph[*idx] == "C").unwrap();
         assert!(graph.find_edge(a_idx, c_idx).is_none(), "A and C should NOT be connected.");
     }
-} */
+} 
