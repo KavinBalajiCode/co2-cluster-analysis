@@ -1,0 +1,319 @@
+Cluster 1 (112 countries):
+- Vanuatu
+- Chad
+- Niue
+- Maldives
+- Cyprus
+- Andorra
+- Senegal
+- Kosovo
+- Djibouti
+- Liechtenstein
+- Laos
+- Gambia
+- Rwanda
+- Macao
+- Angola
+- Saint Vincent and the Grenadines
+- Namibia
+- Togo
+- Uganda
+- Nauru
+- Singapore
+- Marshall Islands
+- Mali
+- Samoa
+- Cameroon
+- Congo
+- Lesotho
+- Benin
+- Montserrat
+- Faroe Islands
+- Iraq
+- Qatar
+- Eswatini
+- Iceland
+- Cook Islands
+- Seychelles
+- Solomon Islands
+- Barbados
+- Palestine
+- Comoros
+- Cape Verde
+- Guyana
+- Central African Republic
+- Madagascar
+- Grenada
+- Burundi
+- Ghana
+- Bahrain
+- Sri Lanka
+- Libya
+- Greenland
+- Tuvalu
+- Saint Kitts and Nevis
+- Pakistan
+- British Virgin Islands
+- Curacao
+- Kiribati
+- Turks and Caicos Islands
+- Mauritius
+- Equatorial Guinea
+- Guinea
+- Somalia
+- Papua New Guinea
+- Saint Helena
+- Malta
+- Anguilla
+- Gabon
+- Bangladesh
+- Palau
+- Cambodia
+- Yemen
+- Myanmar
+- Fiji
+- Niger
+- Wallis and Futuna
+- Mauritania
+- Sao Tome and Principe
+- Saint Lucia
+- Jamaica
+- Micronesia (country)
+- French Polynesia
+- Saint Pierre and Miquelon
+- Bermuda
+- Guinea-Bissau
+- Luxembourg
+- Hong Kong
+- Sierra Leone
+- Dominica
+- Eritrea
+- Mongolia
+- Suriname
+- Sudan
+- Oman
+- Tanzania
+- Burkina Faso
+- Ethiopia
+- Antigua and Barbuda
+- Bhutan
+- Tonga
+- South Sudan
+- Botswana
+- Nepal
+- Jordan
+- Kenya
+- Afghanistan
+- Cote d'Ivoire
+- East Timor
+- New Caledonia
+- Zambia
+- Belize
+- Malawi
+- Bonaire Sint Eustatius and Saba
+
+Cluster 2 (22 countries):
+- Sweden
+- Armenia
+- Colombia
+- Turkmenistan
+- Romania
+- Argentina
+- Lithuania
+- Denmark
+- Switzerland
+- Georgia
+- Estonia
+- Latvia
+- Russia
+- Belarus
+- Slovakia
+- Netherlands
+- Uzbekistan
+- Kazakhstan
+- Ukraine
+- South America
+- Czechia
+- Azerbaijan
+
+Cluster 3 (17 countries):
+- Japan
+- El Salvador
+- Finland
+- Dominican Republic
+- Italy
+- Guatemala
+- Haiti
+- Greece
+- Turkey
+- Honduras
+- India
+- Upper-middle-income countries
+- Lower-middle-income countries
+- Portugal
+- Costa Rica
+- Nicaragua
+- Brazil
+
+Cluster 4 (16 countries):
+- Norway
+- North America
+- Germany
+- Oceania
+- New Zealand
+- Europe (excl. EU-27)
+- United States
+- Poland
+- Europe
+- Canada
+- European Union (28)
+- European Union (27)
+- High-income countries
+- France
+- North America (excl. USA)
+- Australia
+
+Cluster 5 (9 countries):
+- Serbia
+- Ecuador
+- Bosnia and Herzegovina
+- Slovenia
+- Africa
+- South Africa
+- North Macedonia
+- Montenegro
+- Croatia
+
+Cluster 6 (6 countries):
+- Lebanon
+- Syria
+- Thailand
+- Israel
+- Morocco
+- Tunisia
+
+Cluster 7 (4 countries):
+- Iran
+- Egypt
+- South Korea
+- China
+
+Cluster 8 (3 countries):
+- Moldova
+- Kyrgyzstan
+- Tajikistan
+
+Cluster 9 (3 countries):
+- Paraguay
+- Indonesia
+- Malaysia
+
+Cluster 10 (2 countries):
+- Bahamas
+- Liberia
+
+Cluster 11 (2 countries):
+- Philippines
+- Panama
+
+Cluster 12 (2 countries):
+- Low-income countries
+- North Korea
+
+Cluster 13 (2 countries):
+- Taiwan
+- Asia
+
+Cluster 14 (1 countries):
+- United Kingdom
+
+Cluster 15 (1 countries):
+- Hungary
+
+Cluster 16 (1 countries):
+- Nigeria
+
+Cluster 17 (1 countries):
+- Aruba
+
+Cluster 18 (1 countries):
+- Chile
+
+Cluster 19 (1 countries):
+- Saudi Arabia
+
+Cluster 20 (1 countries):
+- Mexico
+
+Cluster 21 (1 countries):
+- Mozambique
+
+Cluster 22 (1 countries):
+- Europe (excl. EU-28)
+
+Cluster 23 (1 countries):
+- Brunei
+
+Cluster 24 (1 countries):
+- Asia (excl. China and India)
+
+Cluster 25 (1 countries):
+- United Arab Emirates
+
+Cluster 26 (1 countries):
+- Austria
+
+Cluster 27 (1 countries):
+- Zimbabwe
+
+Cluster 28 (1 countries):
+- Peru
+
+Cluster 29 (1 countries):
+- Cuba
+
+Cluster 30 (1 countries):
+- Bulgaria
+
+Cluster 31 (1 countries):
+- Ireland
+
+Cluster 32 (1 countries):
+- Sint Maarten (Dutch part)
+
+Cluster 33 (1 countries):
+- Trinidad and Tobago
+
+Cluster 34 (1 countries):
+- Vietnam
+
+Cluster 35 (1 countries):
+- Democratic Republic of Congo
+
+Cluster 36 (1 countries):
+- Venezuela
+
+Cluster 37 (1 countries):
+- Bolivia
+
+Cluster 38 (1 countries):
+- Algeria
+
+Cluster 39 (1 countries):
+- Belgium
+
+Cluster 40 (1 countries):
+- Albania
+
+Cluster 41 (1 countries):
+- Uruguay
+
+Cluster 42 (1 countries):
+- Spain
+
+Cluster 43 (1 countries):
+- Kuwait
+
+Cluster 44 (1 countries):
+- World
+
