@@ -1,11 +1,11 @@
-//! similarity.rs
-//! Finds cosine similarity between two emission profiles.
+// similarity.rs
+// Finds cosine similarity between two emission profiles.
 
 use crate::country::CountryData;
 
-/// Computes cosine similarity between two countries' emissions.
-/// Inputs: `a`, `b`: references to CountryData
-/// Outputs: cosine similarity as f64 (between -1 and 1)
+// Computes cosine similarity between two countries' emissions.
+// Inputs: a, b: references to CountryData
+// Outputs: cosine similarity with values between -1 and 1
 pub fn cosine_similarity(a: &CountryData, b: &CountryData) -> f64 {
     let mut dot = 0.0;
     let mut norm_a = 0.0;

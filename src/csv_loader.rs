@@ -1,10 +1,10 @@
-//! csv_loader.rs
-//! Handles loading and parsing the CO₂ emissions CSV dataset.
+// csv_loader.rs
+// Handles loading and parsing the CO2 emissions CSV dataset.
 
 use std::collections::HashMap;
 use serde::Deserialize;
 
-/// Represents a single record from the CO₂ dataset.
+// Represents a single record from the CO2 dataset.
 #[derive(Debug, Deserialize)]
 pub struct Record {
     pub country: String,
@@ -12,9 +12,9 @@ pub struct Record {
     pub co2_per_capita: Option<f64>,
 }
 
-/// Loads and parses the dataset from a given CSV file path.
-/// Inputs: `path`: Path to the CSV file
-/// Outputs:  HashMap of country -> vector of (year, co2_per_capita) pairs
+// Loads and parses the dataset from a given CSV file path.
+// Inputs: Path to the CSV file
+// Outputs:  HashMap of country -> vector of (year, co2_per_capita) pairs
 pub fn load_data(path: &str) -> HashMap<String, Vec<(i32, f64)>> {
     let mut rdr = csv::Reader::from_path(path).expect("Failed to open CSV file.");
     let mut data: HashMap<String, Vec<(i32, f64)>> = HashMap::new();

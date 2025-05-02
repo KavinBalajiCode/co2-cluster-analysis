@@ -1,5 +1,5 @@
-//! graph.rs
-//! Constructs the similarity graph, computes clusters, analyzes centrality, and saves results.
+// graph.rs
+// Constructs the similarity graph, computes clusters, analyzes centrality, and saves results.
 
 use petgraph::graph::Graph;
 use petgraph::algo::connected_components;
@@ -11,11 +11,11 @@ use std::collections::HashMap;
 use std::fs::File;
 use std::io::{Write, BufWriter};
 
-/// Builds the similarity graph based on a threshold.
-/// Inputs:  
-///  - cleaned country emission data
-///  - similarity threshold
-/// Outputs: Graph<String, f64>
+// Builds the similarity graph based on a threshold.
+// Inputs:  
+//  - cleaned country emission data
+//  - similarity threshold
+// Outputs: Graph
 pub fn build_similarity_graph(data: &HashMap<String, CountryData>, threshold: f64) -> Graph<String, f64> {
     let mut graph = Graph::<String, f64>::new();
     let mut nodes = HashMap::new();
@@ -41,14 +41,14 @@ pub fn build_similarity_graph(data: &HashMap<String, CountryData>, threshold: f6
     graph
 }
 
-/// Prints basic stats about the graph.
+// Prints basic stats about the graph.
 pub fn print_graph_stats(graph: &Graph<String, f64>) {
     println!("- Total Countries (Nodes): {}", graph.node_count());
     println!("- Total Strong Similarity Connections (Edges): {}", graph.edge_count());
     println!("- Number of Connected Components (Clusters): {}", connected_components(graph));
 }
 
-/// Ranks and prints countries by degree centrality.
+// Ranks and prints countries by degree centrality.
 pub fn print_degree_centrality(graph: &Graph<String, f64>) {
     println!("🌟 Top Countries by Degree Centrality:");
     let mut centrality = vec![];
@@ -66,7 +66,7 @@ pub fn print_degree_centrality(graph: &Graph<String, f64>) {
     }
 }
 
-/// Groups and prints clusters (connected components).
+// Groups and prints clusters (connected components).
 pub fn print_clusters(graph: &Graph<String, f64>) {
     let mut uf = UnionFind::new(graph.node_count());
 
@@ -93,12 +93,11 @@ pub fn print_clusters(graph: &Graph<String, f64>) {
     }
 }
 
-/// Saves all clusters to a text file.
-/// Inputs:
-/// - reference to graph
-/// - output file name
-/// Outputs:
-/// - file written to disk
+// Saves all clusters to a text file.
+// Inputs:
+// - reference to graph
+// - output file name
+// Outputs: txt file written to disk 
 pub fn save_clusters_to_file(graph: &Graph<String, f64>, filename: &str) {
     let mut uf = UnionFind::new(graph.node_count());
 
@@ -131,5 +130,6 @@ pub fn save_clusters_to_file(graph: &Graph<String, f64>, filename: &str) {
         writeln!(writer, "").expect("Failed to write newline.");
     }
 
-    println!("✅ Clusters saved to '{}'", filename);
+    println!("✅  Clusters saved to '{}'", filename);
+    println!("The file contains a list of all clusters.");
 }
